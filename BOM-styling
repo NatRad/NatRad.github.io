@@ -1,0 +1,52 @@
+
+header {
+    background-image: url("http://i.imgur.com/ubkvc1y.jpg"); 
+    opacity: 0.3
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+}
+
+body {
+      text-align: center;
+      background: #98ff90;
+      opacity: 0.8;
+      background-size: cover;
+      font-family: helvetica
+      opacity: 1;
+      color: black;
+    }
+
+    p{
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      color: white;
+      background: red;
+    }
+    h1 {
+	font-size: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+}
+
+h3 {
+	font-size: 25px;
+	color: grey;
+}
+
+div.one {
+    height: 60px;
+    width: 10px;
+    }
