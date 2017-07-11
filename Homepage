@@ -3,7 +3,7 @@
 <head>
   <title>Book Of The Month Bootstap Test</title>
   <link href='css/bootstrap.css' rel='stylesheet'>
-  <link rel= "stylesheet" type="text/css" href="project.css">
+  <link rel= "stylesheet" type="text/css" href="/project.css">
   <metaname ="viewport" content= "width=device-width, initial-scale=1.0">
 
 </head>
