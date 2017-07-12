@@ -1,6 +1,6 @@
-var button = document.getElementById('upvote'),
+var button = document.getElementById('Upvote!'),
   count = 0;
 button.onclick = function() {
   count += 1;
-  button.innerHTML = "Upvote: " + count;
+  button.innerHTML = "Upvote!: " + count;
 };
