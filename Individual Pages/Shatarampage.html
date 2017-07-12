@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!----CSS---->
+    <link href='css/bootstrap.css' rel='stylesheet'>
+    <link rel= "stylesheet" type="text/css" href="BOM-styling">
+
+  	<!--Title-->
+	<title>Shantaram</title>
+
+</head>
+
+<body>
+<div id=".container-fluid">
+    
+<!--NavBar-->
+<div class='container-fluid'>
+  <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+  
+    <div class="navbar-header page scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll page-top-font" href="index.html">Book Of The Month</a>
+    </div>
+    
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden active"><a class="page-scroll" href="index.html">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="page-scroll right" href="index.html#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-------Back Button ---------->
+<div>
+    <a href id="back" onclick="goBack()">&#8592;</a>
+    
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    </div>
+    
+<!--------- Main header --------->
+
+  <br>
+  <h1>Shantaram</h1>
+  <br>
+    
+<!-------- Content -------------->
+    
+    <img src='http://i.imgur.com/8IifKpx.png' class='img-square left-block'>
+
+    <h2>About The Author</h2>
+    <p id="about the author">(Via Wikipedia) Gregory David Roberts (born Gregory John Peter Smith; 21 June 1952[1]) is an Australian author best known for his novel Shantaram. He is a former heroin addict and convicted bank robber who escaped from Pentridge Prison in 1980 and fled to India, where he lived for ten years.</p>
+    <br>
+    
+    <h2>Critical Acclaim</h2>
+    <p><a href="https://www.theguardian.com/books/2004/jun/05/featuresreviews.guardianreview21">The Guardian, 2004</a>
+    <br>Here is an author's story that is bigger than his novel and, since Shantaram is an Australasian bestseller and weighs in at more than 900 pages, this is some feat. Roberts comes clean about the thinly disguised autobiography - but what an autobiography. Our author/narrator escaped from an antipodean jail, into which he'd been cast for drug offences and violent robbery, and made his way to Bombay. Over the next 10 years he established a medical clinic, worked in Bollywood, was a forger and smuggler for the Bombay mafia and fought with guerrillas in Afghanistan before being recaptured (not forgetting his spiritual regeneration along the way). Shantaram is a curious mixture of adventure story and travelogue, with too much cod-philosophy: more successful is the vivid and compassionate panorama of the places and people he encounters. Perhaps the most impressive fact is that Roberts wrote the book three times - the first two drafts were destroyed by his jailers.</p>
+
+<div class="parent">
+  <div class="content">
+    <div class="btn-group" role="group">
+      <a href="https://www.amazon.co.uk/Shantaram-Gregory-David-Roberts/dp/0349117543">
+      <button type="button" class="btn btn-default">View On Amazon</button>
+      </a>
+    </div>
+  </div>
+</div>
+<br>
+  
+
+
+    
+ <!-------Back to top Button ---------->
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" 
+  role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+});
+</script>
+      
+</body>
+</html>
