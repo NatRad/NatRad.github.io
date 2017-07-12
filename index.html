@@ -48,6 +48,17 @@
         <label for="email">Subscribe to our newsletter</label>
         <input type="text" name="email" >
           <button id='btn btn-success'>Send</button>
+            <script type="text/javascript">
+
+              var button = document.getElementById('Upvote!'),
+              count = 0;
+            button.onclick = function() {
+              count += 1;
+              button.innerHTML = "Upvote!: " + count;
+               };
+
+           </script>
+         
     </form>
   </div>
   </div>
@@ -107,16 +118,7 @@
   </div>
   </div>
 
-<script type="text/javascript">
-  
-  var button = document.getElementById('Upvote!'),
-  count = 0;
-button.onclick = function() {
-  count += 1;
-  button.innerHTML = "Upvote!: " + count;
-};
- 
-</script>
+
 </body>
 
 
